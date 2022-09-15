@@ -1,0 +1,21 @@
+{
+    "clients": {
+        "clangd": {
+            "enabled": true,
+            "command": [
+                "clangd-14", 
+                "-function-arg-placeholders=0",
+                "-header-insertion-decorators=1",
+                "-header-insertion=never",
+                "-index",
+            ],
+            "scopes": ["source.c", "source.c++"],
+            "syntaxes": [
+                "Packages/C++/C.sublime-syntax",
+                "Packages/C++/C++.sublime-syntax",
+            ],
+            "languageId": "cpp",
+        },
+    },
+ 
+}

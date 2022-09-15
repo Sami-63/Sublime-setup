@@ -1,0 +1,30 @@
+[
+    {"keys" : ["ctrl+alt+b"] , "command": "cancel_build"},
+    {"keys" : ["ctrl+h"] , "command": "fast_olympic_coding_hook"},
+    // Open a terminal tab at current file directory
+    {
+        "keys": ["ctrl+alt+`"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {   "keys": ["alt+/"], "command": "toggle_terminus_panel", "args": {
+            "cwd": "${file_path:${folder}}"
+        } },
+    {   "keys": ["alt+r"], "command": "terminus_reset" },
+    {   "keys": ["alt+w"], "command": "terminus_close" },
+    
+    
+    {
+        "command": "lsp_format_document",
+        "keys": [
+            "alt+i"
+        ],
+        "context": [
+            {
+                "key": "lsp.session_with_capability",
+                "operator": "equal",
+                "operand": "documentFormattingProvider | documentRangeFormattingProvider"
+            }
+        ]
+    }
+]

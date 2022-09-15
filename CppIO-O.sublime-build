@@ -1,0 +1,6 @@
+{
+    "cmd" : ["g++ -std=c++17 \"$file_name\" && timeout 10s ./a.out <~/Documents/input.txt | head -n 2000000 | head -c 5000000 >~/Documents/output.txt"], 
+    "selector" : "source.c,source.cpp,source.c++",
+    "shell": true,
+    "working_dir" : "$file_path"
+}
