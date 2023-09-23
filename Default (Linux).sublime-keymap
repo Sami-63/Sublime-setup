@@ -1,12 +1,18 @@
 [
+    // build cancel shortcut 
     {"keys" : ["ctrl+alt+b"] , "command": "cancel_build"},
+
+    // fast olympic hook shortcut
     {"keys" : ["ctrl+h"] , "command": "fast_olympic_coding_hook"},
+    
     // Open a terminal tab at current file directory
     {
         "keys": ["ctrl+alt+`"], "command": "terminus_open", "args": {
             "cwd": "${file_path:${folder}}"
         }
     },
+
+    // Open terminal in below panel
     {   "keys": ["alt+/"], "command": "toggle_terminus_panel", "args": {
             "cwd": "${file_path:${folder}}"
         } },
@@ -14,6 +20,7 @@
     {   "keys": ["alt+w"], "command": "terminus_close" },
     
     
+    // formatting code with lsp
     {
         "command": "lsp_format_document",
         "keys": [

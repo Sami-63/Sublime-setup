@@ -3,7 +3,7 @@
         "clangd": {
             "enabled": true,
             "command": [
-                "clangd-14", 
+                "clangd", 
                 "-function-arg-placeholders=0",
                 "-header-insertion-decorators=1",
                 "-header-insertion=never",
