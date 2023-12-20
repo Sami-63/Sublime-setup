@@ -74,7 +74,7 @@ b. If you are using firefox, then go the the settings of the extension. Then in 
 
 - Copy all the content in the [Default (Linux).sublime-keymap](https://github.com/Sami-63/Sublime-setup/blob/master/Default%20(Linux).sublime-keymap) and go to `Preferences -> Key bindings`. In the right panel paste everything you copied. 
 
-- Press `ctrl + shift + b` and type setting and go to cppfastopympiccoding setting. In the left panel, in "run_settings", in compile_cmd change the `-std=c++11` to `-std=c++17`, and in the lint_compile_cmd change the `-std=gnu++11` to `-std=gnu++17`. And you are set to go. 
+- Press `ctrl + shift + p` and type `setting` and go to `cppfastopympiccoding setting`. In the left panel, in "run_settings", in compile_cmd change the `-std=c++11` to `-std=c++17`, and in the lint_compile_cmd change the `-std=gnu++11` to `-std=gnu++17`. And you are set to go. 
 
 - The procedure to get problem test case is -  
     a. Press `Ctrl + h`  
